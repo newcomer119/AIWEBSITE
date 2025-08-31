@@ -29,14 +29,15 @@ export const Hero = () => {
       </div>
       <div className="container relative mt-16">
         <h1 className="text-8xl font-semibold tracking-tighter bg-white bg-[radial-gradient(100%_100%_at_top_left,white,white,rgb(74,32,138,.5))] text-transparent bg-clip-text text-center">
-          AI SERVICES
+          AI CALLING SERVICES
         </h1>
-        <p className="text-lg md:text-xl mx-auto text-white/70 mt-5 text-center">
-          Elevate Your Website&apos;s visibility effortlessly with AI-powered SEO and
-          Calling
+        <p className="text-lg md:text-xl mx-auto text-white/70 mt-5 text-center max-w-4xl">
+          Transform your business with AI-powered calling agents that handle thousands of cold calls, 
+          qualify leads, and book meetings automatically. Let your sales team focus on closing deals, not dialing.
         </p>
-        <div className="flex justify-center mt-5">
-          <Button>Join Waitlist</Button>
+        <div className="flex justify-center mt-8 gap-4">
+          <Button>Start Free Trial</Button>
+          <Button className="bg-transparent border border-white/30 hover:bg-white/10">Watch Demo</Button>
         </div>
       </div>
     </section>

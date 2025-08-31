@@ -10,7 +10,7 @@ export const Footer = () => {
         <div className="flex flex-col lg:flex-row items-center gap-8">
           <div className="flex gap-3 items-center lg:flex-1">
             <Logo className="w-8 h-8" />
-            <div className="font-semibold text-lg">AI Services</div>
+            <div className="font-semibold text-lg">Voxyr AI Calling</div>
           </div>
 
           <nav className="flex flex-col lg:flex-row gap-5 lg:gap-7 lg:flex-1">
@@ -18,19 +18,13 @@ export const Footer = () => {
               href="#"
               className="text-white/70 hover:text-white text-xs md:text-sm transition"
             >
-              Features
+              AI Calling
             </a>
             <a
               href="#"
               className="text-white/70 hover:text-white text-xs md:text-sm transition"
             >
-              Developers
-            </a>
-            <a
-              href="#"
-              className="text-white/70 hover:text-white text-xs md:text-sm transition"
-            >
-              Company
+              Lead Generation
             </a>
             <a
               href="#"
@@ -42,7 +36,7 @@ export const Footer = () => {
               href="#"
               className="text-white/70 hover:text-white text-xs md:text-sm transition"
             >
-              ChangeLog
+              Support
             </a>
           </nav>
 

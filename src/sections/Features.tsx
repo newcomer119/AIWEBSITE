@@ -2,10 +2,11 @@
 import { DotLottiePlayer } from "@dotlottie/react-player";
 import Image from "next/image";
 import productImage from "@/assets/product-image.png";
+
 const tabs = [
   {
     icon: "/assets/lottie/vroom.lottie",
-    title: "User-friendly dashboard",
+    title: "Smart Call Routing",
     isNew: false,
     backgroundPositionX: 0,
     backgroundPositionY: 0,
@@ -13,7 +14,7 @@ const tabs = [
   },
   {
     icon: "/assets/lottie/click.lottie",
-    title: "One-click optimization",
+    title: "One-Click Campaign Launch",
     isNew: false,
     backgroundPositionX: 98,
     backgroundPositionY: 100,
@@ -21,7 +22,7 @@ const tabs = [
   },
   {
     icon: "/assets/lottie/stars.lottie",
-    title: "Smart keyword generator",
+    title: "AI Voice Intelligence",
     isNew: true,
     backgroundPositionX: 100,
     backgroundPositionY: 27,
@@ -34,11 +35,11 @@ export const Features = () => {
     <section className="py-20 md:py-24">
       <div className="container">
         <h2 className="text-5xl md:text-6xl font-medium text-center tracking-tighter">
-          Elevate Your SEO efforts.
+          Revolutionize Your Calling Strategy
         </h2>
-        <p className="text-white/70 text-lg md:text-xl max-w-2xl mx-auto tracking-tight text-center mt-5">
-          From small startups to large enterprises, our AI-driven tool has
-          revolutionized the way our buisness approaches SEO
+        <p className="text-white/70 text-lg md:text-xl max-w-3xl mx-auto tracking-tight text-center mt-5">
+          From lead generation to appointment booking, our AI calling platform handles everything. 
+          Scale your outreach without scaling your team.
         </p>
         <div className="mt-10 flex flex-col lg:flex-row gap-3">
           {tabs.map((tab) => (
