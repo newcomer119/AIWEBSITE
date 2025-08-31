@@ -3,7 +3,7 @@ import starsBg from "@/assets/stars.png";
 import gridLines from "@/assets/grid-lines.png";
 export const CallToAction = () => {
   return (
-    <section className="py-20 md:py-24">
+    <section className="py-20 md">
       <div className="container">
         <div
           className="border border-white/15 py-24 overflow-hidden relative"
@@ -18,7 +18,7 @@ export const CallToAction = () => {
             }}
           ></div>
           <div className="relative">
-            <h2 className="text-5xl md:text-6xl max-w-sm tracking-tighter text-center font-medium">
+            <h2 className="text-5xl md:text-6xl max-w-sm mx-auto tracking-tighter text-center font-medium">
               AI-driven Features For Everyone
             </h2>
             <p className="text-center text-lg text-white/70 px-4 mt-5 tracking-tight">
