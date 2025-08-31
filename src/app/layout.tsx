@@ -7,8 +7,8 @@ import { twMerge } from "tailwind-merge";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "AI Startup Landing Page",
-  description: "A landing page for an AI startup created with Next.js",
+  title: "AI CALLING SERVICES",
+  description: "Our AI agents handle thousands of cold calls, qualify leads, and book meetings. Let your sales team focus on closing deals, not dialing.",
 };
 
 export default function RootLayout({
