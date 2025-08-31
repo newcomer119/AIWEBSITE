@@ -28,16 +28,16 @@ export const Hero = () => {
         <div className="absolute h-2 w-2 left-full bg-white/20 rounded-full top-0 -translate-x-1/2 -translate-y-1/2"></div>
       </div>
       <div className="container relative mt-16">
-        <h1 className="text-8xl font-semibold tracking-tighter bg-white bg-[radial-gradient(100%_100%_at_top_left,white,white,rgb(74,32,138,.5))] text-transparent bg-clip-text text-center">
+        <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-semibold tracking-tighter bg-white bg-[radial-gradient(100%_100%_at_top_left,white,white,rgb(74,32,138,.5))] text-transparent bg-clip-text text-center px-4">
           AI CALLING SERVICES
         </h1>
-        <p className="text-lg md:text-xl mx-auto text-white/70 mt-5 text-center max-w-4xl">
+        <p className="text-base sm:text-lg md:text-xl mx-auto text-white/70 mt-5 text-center max-w-4xl px-4">
           Transform your business with AI-powered calling agents that handle thousands of cold calls, 
           qualify leads, and book meetings automatically. Let your sales team focus on closing deals, not dialing.
         </p>
-        <div className="flex justify-center mt-8 gap-4">
-          <Button>Start Free Trial</Button>
-          <Button className="bg-transparent border border-white/30 hover:bg-white/10">Watch Demo</Button>
+        <div className="flex flex-col sm:flex-row justify-center mt-8 gap-4 px-4">
+          <Button className="w-full sm:w-auto">Start Free Trial</Button>
+          <Button className="w-full sm:w-auto bg-transparent border border-white/30 hover:bg-white/10">Watch Demo</Button>
         </div>
       </div>
     </section>
