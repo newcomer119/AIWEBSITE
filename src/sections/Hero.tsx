@@ -32,7 +32,7 @@ export const Hero = () => {
           AI SERVICES
         </h1>
         <p className="text-lg md:text-xl mx-auto text-white/70 mt-5 text-center">
-          Elevate Your Website's visibility effortlessly with AI-powered SEO and
+          Elevate Your Website&apos;s visibility effortlessly with AI-powered SEO and
           Calling
         </p>
         <div className="flex justify-center mt-5">
